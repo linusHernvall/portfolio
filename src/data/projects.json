@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "title": "Personal Portfolio",
+    "description": "A modern developer portfolio built with Next.js, TypeScript, and Tailwind CSS.",
+    "link": "https://your-portfolio.com",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    "id": "2",
+    "title": "Open Source CLI Tool",
+    "description": "A command-line tool for automating repetitive tasks, written in Node.js.",
+    "link": "https://github.com/yourusername/cli-tool",
+    "tags": ["Node.js", "CLI", "Automation"]
+  },
+  {
+    "id": "3",
+    "title": "UI Component Library",
+    "description": "A reusable component library for React projects, styled with Shadcn UI.",
+    "link": "https://github.com/yourusername/ui-library",
+    "tags": ["React", "Shadcn UI", "Component Library"]
+  }
+]

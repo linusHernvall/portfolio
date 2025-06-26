@@ -1,10 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Developer Portfolio
+
+A modern personal developer portfolio built with:
+
+- **Next.js** (App Router)
+- **TypeScript**
+- **Tailwind CSS**
+- **Shadcn UI** (with dark mode support)
+- **next-themes** for theme switching
+
+## Features
+
+- Home page with hero section and call-to-action
+- Projects page (`/projects`) that reads from a local JSON file and displays project cards
+- Reusable, modular components (e.g., `ProjectCard`)
+- Clean, minimal styling with Tailwind CSS
+- Dark mode toggle (top-right corner)
+
+## Structure
+
+- `src/app/` — App Router pages
+- `src/components/` — Reusable UI and custom components
+- `src/data/projects.json` — Project data
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
 # or
 yarn dev
@@ -34,3 +57,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---
+
+Built with ❤️ using Next.js, Tailwind, and Shadcn UI.
