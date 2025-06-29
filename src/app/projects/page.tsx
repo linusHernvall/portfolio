@@ -1,14 +1,56 @@
 import { ProjectCard } from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
+import { ArrowLeft } from "lucide-react";
+import Link from "next/link";
 
 export default function ProjectsPage() {
   return (
-    <main className="max-w-3xl mx-auto py-12 px-4">
-      <h1 className="text-3xl font-bold mb-8 text-center">Projects</h1>
-      <div className="grid gap-6 sm:grid-cols-2">
-        {projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+    <main className="min-h-screen gradient-bg">
+      <div className="container-modern section-padding">
+        {/* Header */}
+        <div className="mb-12 animate-fade-in">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-200 mb-6 group"
+          >
+            <ArrowLeft className="h-4 w-4 group-hover:-translate-x-1 transition-transform duration-200" />
+            Back to Home
+          </Link>
+
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
+            My Projects
+          </h1>
+          <p className="text-xl text-muted-foreground max-w-2xl">
+            A collection of my work showcasing modern web development, clean
+            architecture, and user-focused design.
+          </p>
+        </div>
+
+        {/* Projects Grid */}
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 animate-slide-up">
+          {projects.map((project, index) => (
+            <div
+              key={project.id}
+              style={{ animationDelay: `${index * 0.1}s` }}
+              className="animate-slide-up"
+            >
+              <ProjectCard project={project} />
+            </div>
+          ))}
+        </div>
+
+        {/* Call to Action */}
+        <div className="text-center mt-16 animate-slide-up [animation-delay:0.5s]">
+          <p className="text-muted-foreground mb-4">
+            Interested in working together?
+          </p>
+          <Link
+            href="#contact"
+            className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-medium transition-colors duration-200"
+          >
+            Let's discuss your project
+          </Link>
+        </div>
       </div>
     </main>
   );

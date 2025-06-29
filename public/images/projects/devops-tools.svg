@@ -1,0 +1,63 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#0f172a" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="16" y="16" width="368" height="40" fill="#1e293b" rx="8"/>
+  <rect x="32" y="28" width="80" height="16" fill="#e2e8f0" rx="4"/>
+  <rect x="280" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  <rect x="320" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  <rect x="360" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  
+  <!-- Infrastructure Diagram -->
+  <rect x="16" y="72" width="368" height="162" fill="#1e293b" rx="8"/>
+  
+  <!-- Cloud Services -->
+  <rect x="32" y="84" width="80" height="40" fill="#3b82f6" rx="6"/>
+  <rect x="40" y="92" width="64" height="8" fill="#ffffff" rx="2"/>
+  <rect x="40" y="104" width="48" height="8" fill="#ffffff" rx="2"/>
+  <rect x="40" y="116" width="56" height="8" fill="#ffffff" rx="2"/>
+  
+  <!-- CI/CD Pipeline -->
+  <rect x="128" y="84" width="120" height="40" fill="#10b981" rx="6"/>
+  <rect x="136" y="92" width="104" height="8" fill="#ffffff" rx="2"/>
+  <rect x="136" y="104" width="88" height="8" fill="#ffffff" rx="2"/>
+  <rect x="136" y="116" width="96" height="8" fill="#ffffff" rx="2"/>
+  
+  <!-- Container -->
+  <rect x="264" y="84" width="80" height="40" fill="#f59e0b" rx="6"/>
+  <rect x="272" y="92" width="64" height="8" fill="#ffffff" rx="2"/>
+  <rect x="272" y="104" width="48" height="8" fill="#ffffff" rx="2"/>
+  <rect x="272" y="116" width="56" height="8" fill="#ffffff" rx="2"/>
+  
+  <!-- Connection Lines -->
+  <line x1="112" y1="104" x2="128" y2="104" stroke="#64748b" stroke-width="2"/>
+  <line x1="248" y1="104" x2="264" y2="104" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Monitoring Dashboard -->
+  <rect x="32" y="140" width="312" height="80" fill="#0f172a" rx="6"/>
+  
+  <!-- Metrics -->
+  <rect x="40" y="148" width="60" height="32" fill="#1e293b" rx="4"/>
+  <rect x="48" y="156" width="44" height="8" fill="#64748b" rx="2"/>
+  <rect x="48" y="168" width="32" height="8" fill="#10b981" rx="2"/>
+  
+  <rect x="116" y="148" width="60" height="32" fill="#1e293b" rx="4"/>
+  <rect x="124" y="156" width="44" height="8" fill="#64748b" rx="2"/>
+  <rect x="124" y="168" width="32" height="8" fill="#3b82f6" rx="2"/>
+  
+  <rect x="192" y="148" width="60" height="32" fill="#1e293b" rx="4"/>
+  <rect x="200" y="156" width="44" height="8" fill="#64748b" rx="2"/>
+  <rect x="200" y="168" width="32" height="8" fill="#f59e0b" rx="2"/>
+  
+  <rect x="268" y="148" width="60" height="32" fill="#1e293b" rx="4"/>
+  <rect x="276" y="156" width="44" height="8" fill="#64748b" rx="2"/>
+  <rect x="276" y="168" width="32" height="8" fill="#ef4444" rx="2"/>
+  
+  <!-- Status Indicators -->
+  <circle cx="360" cy="44" r="6" fill="#10b981"/>
+  <circle cx="360" cy="44" r="10" fill="#10b981" fill-opacity="0.2"/>
+  
+  <circle cx="320" cy="44" r="6" fill="#10b981"/>
+  <circle cx="320" cy="44" r="10" fill="#10b981" fill-opacity="0.2"/>
+</svg> 

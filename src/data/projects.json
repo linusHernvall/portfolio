@@ -1,23 +1,56 @@
 [
   {
     "id": "1",
-    "title": "Personal Portfolio",
-    "description": "A modern developer portfolio built with Next.js, TypeScript, and Tailwind CSS.",
-    "link": "https://your-portfolio.com",
-    "tags": ["Next.js", "TypeScript", "Tailwind CSS"]
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce solution built with Next.js 14, featuring real-time inventory management, secure payment processing with Stripe, and an intuitive admin dashboard.",
+    "link": "https://your-ecommerce-demo.com",
+    "github": "https://github.com/yourusername/ecommerce-platform",
+    "image": "/images/projects/ecommerce-platform.svg",
+    "tags": ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"]
   },
   {
     "id": "2",
-    "title": "Open Source CLI Tool",
-    "description": "A command-line tool for automating repetitive tasks, written in Node.js.",
-    "link": "https://github.com/yourusername/cli-tool",
-    "tags": ["Node.js", "CLI", "Automation"]
+    "title": "Task Management API",
+    "description": "RESTful API for task management with JWT authentication, real-time notifications, and comprehensive testing suite. Built with Node.js and Express.",
+    "link": "https://your-api-docs.com",
+    "github": "https://github.com/yourusername/task-management-api",
+    "image": "/images/projects/task-management-api.svg",
+    "tags": ["Node.js", "Express", "JWT", "MongoDB", "Jest"]
   },
   {
     "id": "3",
-    "title": "UI Component Library",
-    "description": "A reusable component library for React projects, styled with Shadcn UI.",
-    "link": "https://github.com/yourusername/ui-library",
-    "tags": ["React", "Shadcn UI", "Component Library"]
+    "title": "Portfolio Website",
+    "description": "Modern developer portfolio showcasing projects and skills. Features dark mode, responsive design, and optimized performance with Next.js and TypeScript.",
+    "link": "https://your-portfolio.com",
+    "github": "https://github.com/yourusername/portfolio",
+    "image": "/images/projects/portfolio.svg",
+    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"]
+  },
+  {
+    "id": "4",
+    "title": "Real-time Chat Application",
+    "description": "WebSocket-based chat application with user authentication, file sharing, and message encryption. Built with React, Socket.io, and Node.js.",
+    "link": "https://your-chat-app.com",
+    "github": "https://github.com/yourusername/chat-app",
+    "image": "/images/projects/chat-app.svg",
+    "tags": ["React", "Socket.io", "Node.js", "MongoDB", "JWT"]
+  },
+  {
+    "id": "5",
+    "title": "Weather Dashboard",
+    "description": "Interactive weather dashboard with location-based forecasts, historical data visualization, and customizable widgets using Chart.js and OpenWeather API.",
+    "link": "https://your-weather-app.com",
+    "github": "https://github.com/yourusername/weather-dashboard",
+    "image": "/images/projects/weather-dashboard.svg",
+    "tags": ["React", "Chart.js", "OpenWeather API", "Geolocation"]
+  },
+  {
+    "id": "6",
+    "title": "DevOps Automation Tools",
+    "description": "Collection of CI/CD pipelines, Docker configurations, and infrastructure as code templates for automated deployment and monitoring.",
+    "link": "https://your-devops-tools.com",
+    "github": "https://github.com/yourusername/devops-tools",
+    "image": "/images/projects/devops-tools.svg",
+    "tags": ["Docker", "GitHub Actions", "AWS", "Terraform", "Kubernetes"]
   }
 ]

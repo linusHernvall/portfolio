@@ -1,0 +1,53 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f8fafc" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="16" y="16" width="368" height="40" fill="#e2e8f0" rx="8"/>
+  <rect x="32" y="28" width="80" height="16" fill="#64748b" rx="4"/>
+  <rect x="280" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  <rect x="320" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  <rect x="360" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  
+  <!-- Current Weather Card -->
+  <rect x="16" y="72" width="180" height="120" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="32" y="84" width="60" height="16" fill="#1e293b" rx="4"/>
+  <rect x="32" y="108" width="40" height="24" fill="#3b82f6" rx="12"/>
+  <rect x="32" y="140" width="80" height="12" fill="#64748b" rx="4"/>
+  <rect x="32" y="156" width="60" height="8" fill="#64748b" rx="4"/>
+  <rect x="32" y="168" width="40" height="8" fill="#64748b" rx="4"/>
+  
+  <!-- Weather Chart -->
+  <rect x="212" y="72" width="172" height="120" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="228" y="84" width="80" height="12" fill="#1e293b" rx="4"/>
+  
+  <!-- Chart Bars -->
+  <rect x="228" y="108" width="12" height="40" fill="#3b82f6" rx="2"/>
+  <rect x="248" y="118" width="12" height="30" fill="#3b82f6" rx="2"/>
+  <rect x="268" y="108" width="12" height="40" fill="#3b82f6" rx="2"/>
+  <rect x="288" y="128" width="12" height="20" fill="#3b82f6" rx="2"/>
+  <rect x="308" y="113" width="12" height="35" fill="#3b82f6" rx="2"/>
+  <rect x="328" y="123" width="12" height="25" fill="#3b82f6" rx="2"/>
+  <rect x="348" y="108" width="12" height="40" fill="#3b82f6" rx="2"/>
+  
+  <!-- Forecast Cards -->
+  <rect x="16" y="208" width="80" height="32" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="24" y="216" width="16" height="16" fill="#f59e0b" rx="8"/>
+  <rect x="48" y="218" width="40" height="8" fill="#64748b" rx="4"/>
+  <rect x="48" y="230" width="32" height="6" fill="#64748b" rx="3"/>
+  
+  <rect x="112" y="208" width="80" height="32" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="120" y="216" width="16" height="16" fill="#10b981" rx="8"/>
+  <rect x="144" y="218" width="40" height="8" fill="#64748b" rx="4"/>
+  <rect x="144" y="230" width="32" height="6" fill="#64748b" rx="3"/>
+  
+  <rect x="208" y="208" width="80" height="32" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="216" y="216" width="16" height="16" fill="#8b5cf6" rx="8"/>
+  <rect x="240" y="218" width="40" height="8" fill="#64748b" rx="4"/>
+  <rect x="240" y="230" width="32" height="6" fill="#64748b" rx="3"/>
+  
+  <rect x="304" y="208" width="80" height="32" fill="#ffffff" rx="6" stroke="#e2e8f0" stroke-width="1"/>
+  <rect x="312" y="216" width="16" height="16" fill="#ef4444" rx="8"/>
+  <rect x="336" y="218" width="40" height="8" fill="#64748b" rx="4"/>
+  <rect x="336" y="230" width="32" height="6" fill="#64748b" rx="3"/>
+</svg> 

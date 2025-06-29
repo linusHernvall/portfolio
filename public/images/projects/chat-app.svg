@@ -1,0 +1,42 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="250" fill="#f8fafc" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="16" y="16" width="368" height="40" fill="#e2e8f0" rx="8"/>
+  <rect x="32" y="28" width="80" height="16" fill="#64748b" rx="4"/>
+  <rect x="280" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  <rect x="320" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  <rect x="360" y="28" width="24" height="16" fill="#64748b" rx="4"/>
+  
+  <!-- Chat Container -->
+  <rect x="16" y="72" width="368" height="162" fill="#ffffff" rx="8" stroke="#e2e8f0" stroke-width="1"/>
+  
+  <!-- Chat Messages -->
+  <!-- Message 1 (Received) -->
+  <rect x="32" y="84" width="200" height="32" fill="#f1f5f9" rx="16"/>
+  <rect x="48" y="92" width="120" height="8" fill="#64748b" rx="4"/>
+  <rect x="48" y="104" width="80" height="8" fill="#64748b" rx="4"/>
+  
+  <!-- Message 2 (Sent) -->
+  <rect x="168" y="124" width="200" height="32" fill="#3b82f6" rx="16"/>
+  <rect x="184" y="132" width="140" height="8" fill="#ffffff" rx="4"/>
+  <rect x="184" y="144" width="100" height="8" fill="#ffffff" rx="4"/>
+  
+  <!-- Message 3 (Received) -->
+  <rect x="32" y="164" width="180" height="24" fill="#f1f5f9" rx="12"/>
+  <rect x="48" y="172" width="100" height="8" fill="#64748b" rx="4"/>
+  
+  <!-- Message 4 (Sent) -->
+  <rect x="188" y="196" width="180" height="24" fill="#3b82f6" rx="12"/>
+  <rect x="204" y="204" width="120" height="8" fill="#ffffff" rx="4"/>
+  
+  <!-- Input Area -->
+  <rect x="32" y="228" width="320" height="32" fill="#f8fafc" rx="16"/>
+  <rect x="48" y="240" width="200" height="8" fill="#64748b" rx="4"/>
+  <rect x="320" y="236" width="24" height="20" fill="#3b82f6" rx="12"/>
+  
+  <!-- Online Status -->
+  <circle cx="360" cy="44" r="6" fill="#10b981"/>
+  <circle cx="360" cy="44" r="10" fill="#10b981" fill-opacity="0.2"/>
+</svg> 
