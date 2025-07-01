@@ -48,7 +48,7 @@ export function ProjectCard({ project }: { project: Project }) {
               <Badge
                 key={tag}
                 variant="secondary"
-                className="text-xs font-medium px-2.5 py-1 bg-secondary/50 hover:bg-secondary/70 transition-colors duration-200"
+                className="text-xs font-medium px-2.5 py-1 bg-secondary/80"
               >
                 {tag}
               </Badge>

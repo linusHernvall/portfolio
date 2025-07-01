@@ -4,6 +4,10 @@ import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
 export default function ProjectsPage() {
+  // Summary of projects
+  // Challenges
+  // Lessons learned
+
   return (
     <main className="min-h-screen gradient-bg">
       <div className="container-modern section-padding">

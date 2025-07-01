@@ -52,5 +52,13 @@
     "github": "https://github.com/yourusername/devops-tools",
     "image": "/images/projects/devops-tools.svg",
     "tags": ["Docker", "GitHub Actions", "AWS", "Terraform", "Kubernetes"]
+  },
+  {
+    "id": "7",
+    "title": "Trädgår'n",
+    "description": "Collection of CI/CD pipelines, Docker configurations, and infrastructure as code templates for automated deployment and monitoring.",
+    "link": "https://www.tradgarn.se/",
+    "image": "/images/projects/devops-tools.svg",
+    "tags": ["Docker", "GitHub Actions", "AWS", "Terraform", "Kubernetes"]
   }
 ]

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Code, Database, Globe } from "lucide-react";
+import { ArrowRight, Code, Database, Images } from "lucide-react";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
           <div className="space-y-6 max-w-4xl">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight animate-slide-up">
               Hi, I'm{" "}
-              <span className="text-primary bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+              <span className="text-primary bg-gradient-to-r from-primary to-primary/70 bg-clip-text">
                 Your Name
               </span>
             </h1>
@@ -53,7 +53,8 @@ export default function Home() {
               </div>
               <h3 className="font-semibold mb-2">Frontend</h3>
               <p className="text-sm text-muted-foreground">
-                React, Next.js, TypeScript, Tailwind CSS
+                React.js, Next.js, JavaScript, TypeScript, Tailwind CSS, HTML,
+                CSS, PHP
               </p>
             </div>
 
@@ -63,17 +64,17 @@ export default function Home() {
               </div>
               <h3 className="font-semibold mb-2">Backend</h3>
               <p className="text-sm text-muted-foreground">
-                Node.js, Python, PostgreSQL, MongoDB
+                Node.js, MongoDB, GraphQL, Supabase
               </p>
             </div>
 
             <div className="card-modern p-6 text-center group">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-200">
-                <Globe className="h-6 w-6 text-primary" />
+                <Images className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="font-semibold mb-2">DevOps</h3>
+              <h3 className="font-semibold mb-2">Web Design</h3>
               <p className="text-sm text-muted-foreground">
-                Docker, AWS, CI/CD, Git
+                Figma, Accessibility (WCAG etc), Adobe CS
               </p>
             </div>
           </div>
