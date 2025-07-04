@@ -12,7 +12,20 @@ export function DarkModeToggle() {
     setMounted(true);
   }, []);
 
-  if (!mounted) return null;
+  // Show a skeleton button while mounting to prevent layout shift
+  if (!mounted) {
+    return (
+      <Button
+        variant="ghost"
+        size="icon"
+        aria-label="Loading theme toggle"
+        className="fixed top-4 right-4 z-50"
+        disabled
+      >
+        <div className="w-5 h-5" />
+      </Button>
+    );
+  }
 
   return (
     <Button

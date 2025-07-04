@@ -12,7 +12,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight animate-slide-up">
               Hi, I'm{" "}
               <span className="text-primary bg-gradient-to-r from-primary to-primary/70 bg-clip-text">
-                Your Name
+                Linus Hernvall
               </span>
             </h1>
 
@@ -48,7 +48,7 @@ export default function Home() {
           {/* Skills Preview */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 max-w-4xl w-full animate-slide-up [animation-delay:0.4s]">
             <div className="card-modern p-6 text-center group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-200">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 transition-colors duration-200">
                 <Code className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-semibold mb-2">Frontend</h3>
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
 
             <div className="card-modern p-6 text-center group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-200">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 transition-colors duration-200">
                 <Database className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-semibold mb-2">Backend</h3>
@@ -69,7 +69,7 @@ export default function Home() {
             </div>
 
             <div className="card-modern p-6 text-center group">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-200">
+              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4 transition-colors duration-200">
                 <Images className="h-6 w-6 text-primary" />
               </div>
               <h3 className="font-semibold mb-2">Web Design</h3>

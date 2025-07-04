@@ -1,12 +1,12 @@
 "use client";
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
   Dialog,
   DialogContent,
   DialogHeader,
   DialogTitle,
+  DialogDescription,
 } from "@/components/ui/modal";
 import Link from "next/link";
 import Image from "next/image";
@@ -27,35 +27,37 @@ export function ProjectModal({
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
       <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
-        <DialogHeader>
-          <DialogTitle className="text-2xl font-bold tracking-tight">
-            {project.title}
-          </DialogTitle>
-        </DialogHeader>
-
-        <div className="space-y-6">
-          {/* Project Image */}
-          {project.image && (
-            <div className="relative h-64 overflow-hidden rounded-lg bg-muted/20">
-              <Image
-                src={project.image}
-                alt={`${project.title} mockup`}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
-              />
-            </div>
-          )}
-
+        {/* Project Image */}
+        {project.image && (
+          <div className="relative h-64 overflow-hidden rounded-top-lg bg-muted/20">
+            <Image
+              src={project.image}
+              alt={`${project.title} mockup`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
+            />
+          </div>
+        )}
+        <div className="space-y-6 p-4">
           {/* Project Description */}
-          {project.description && (
+          {/* {project.description && (
             <div>
               <h3 className="text-lg font-semibold mb-3">About this project</h3>
               <p className="text-muted-foreground leading-relaxed">
                 {project.description}
               </p>
             </div>
-          )}
+          )} */}
+
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold tracking-tight">
+              {project.title}
+            </DialogTitle>
+            <DialogDescription className="text-base">
+              {project.description || `Details about ${project.title}`}
+            </DialogDescription>
+          </DialogHeader>
 
           {/* Technology Tags */}
           {project.tags && project.tags.length > 0 && (
@@ -74,21 +76,8 @@ export function ProjectModal({
               </div>
             </div>
           )}
-
           {/* Project Links */}
           <div className="flex flex-col sm:flex-row gap-4 pt-4 border-t">
-            {project.github && (
-              <Link
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors duration-200 group/link"
-              >
-                <Github className="h-5 w-5 group-hover/link:scale-110 transition-transform duration-200" />
-                View Source Code
-              </Link>
-            )}
-
             {project.link && (
               <Link
                 href={project.link}
@@ -96,8 +85,20 @@ export function ProjectModal({
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors duration-200 group/link"
               >
-                <span>Visit Live Project</span>
                 <ExternalLink className="h-5 w-5 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-200" />
+                <span>Visit Live Project</span>
+              </Link>
+            )}
+
+            {project.github && (
+              <Link
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors duration-200 group/link"
+              >
+                <Github className="h-5 w-5 group-hover/link:scale-110 transition-transform duration-200" />
+                View Source Code
               </Link>
             )}
           </div>
