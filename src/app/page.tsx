@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Code, Database, Images } from "lucide-react";
+import ResumeSection from "@/components/ResumeSection";
+import resumeData from "@/data/resume.json";
 
 export default function Home() {
   return (
@@ -10,10 +12,7 @@ export default function Home() {
           {/* Hero Section */}
           <div className="space-y-6 max-w-4xl">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight animate-slide-up">
-              Hi, I'm{" "}
-              <span className="text-primary bg-gradient-to-r from-primary to-primary/70 bg-clip-text">
-                Linus Hernvall
-              </span>
+              Hi, I'm <span className="text-primary">Linus Hernvall</span>
             </h1>
 
             <p className="text-xl sm:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto animate-slide-up [animation-delay:0.1s]">
@@ -80,6 +79,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Resume Section */}
+      <ResumeSection data={resumeData} />
     </main>
   );
 }

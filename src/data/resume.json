@@ -1,0 +1,77 @@
+{
+  "experience": [
+    {
+      "id": "1",
+      "company": "Tech Company AB",
+      "position": "Senior Fullstack Developer",
+      "duration": "2022 - Present",
+      "location": "Stockholm, Sweden",
+      "description": "Lead development of scalable web applications using Next.js, TypeScript, and modern development practices.",
+      "achievements": [
+        "Architected and built 3 major client applications serving 50,000+ users",
+        "Mentored 4 junior developers and established coding standards",
+        "Reduced application load time by 40% through optimization",
+        "Implemented CI/CD pipelines reducing deployment time by 60%"
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Docker"
+      ]
+    },
+    {
+      "id": "2",
+      "company": "Startup XYZ",
+      "position": "Frontend Developer",
+      "duration": "2020 - 2022",
+      "location": "Gothenburg, Sweden",
+      "description": "Developed responsive web applications and improved user experience across multiple platforms.",
+      "achievements": [
+        "Built 5+ React applications with 95%+ accessibility scores",
+        "Collaborated with design team to implement pixel-perfect UI",
+        "Optimized bundle size reducing initial load by 30%",
+        "Implemented automated testing achieving 90% code coverage"
+      ],
+      "technologies": ["React", "JavaScript", "CSS3", "Jest", "Webpack"]
+    },
+    {
+      "id": "3",
+      "company": "Digital Agency",
+      "position": "Web Developer Intern",
+      "duration": "2019 - 2020",
+      "location": "Malmö, Sweden",
+      "description": "Assisted in developing client websites and learning industry best practices.",
+      "achievements": [
+        "Developed 10+ client websites meeting all requirements",
+        "Learned modern development workflows and tools",
+        "Contributed to team code reviews and documentation"
+      ],
+      "technologies": ["HTML5", "CSS3", "JavaScript", "PHP", "WordPress"]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "degree": "Master of Science in Computer Science",
+      "institution": "KTH Royal Institute of Technology",
+      "duration": "2018 - 2020",
+      "location": "Stockholm, Sweden",
+      "description": "Specialized in software engineering and web technologies",
+      "achievements": [
+        "Graduated with distinction",
+        "Thesis on modern web frameworks"
+      ]
+    },
+    {
+      "id": "2",
+      "degree": "Bachelor of Science in Information Technology",
+      "institution": "Chalmers University of Technology",
+      "duration": "2015 - 2018",
+      "location": "Gothenburg, Sweden",
+      "description": "Focused on programming fundamentals and system design",
+      "achievements": ["Dean's List", "Programming competition winner"]
+    }
+  ]
+}
