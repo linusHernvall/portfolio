@@ -172,7 +172,7 @@
 
   /* Professional spacing utilities */
   .section-padding {
-    @apply py-16 px-4 sm:px-6 lg:px-8;
+    @apply py-10 px-4 sm:px-6 lg:px-8;
   }
 
   .container-modern {

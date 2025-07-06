@@ -32,15 +32,17 @@ export default function ProjectsPage() {
 
         {/* Projects Grid */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 animate-slide-up">
-          {projects.map((project, index) => (
-            <div
-              key={project.id}
-              style={{ animationDelay: `${index * 0.1}s` }}
-              className="animate-slide-up"
-            >
-              <ProjectCard project={project} />
-            </div>
-          ))}
+          {projects
+            .sort((a, b) => b.id.localeCompare(a.id))
+            .map((project, index) => (
+              <div
+                key={project.id}
+                style={{ animationDelay: `${index * 0.1}s` }}
+                className="animate-slide-up"
+              >
+                <ProjectCard project={project} />
+              </div>
+            ))}
         </div>
 
         {/* Call to Action */}

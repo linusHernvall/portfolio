@@ -34,12 +34,6 @@ interface Education {
   achievements: string[];
 }
 
-interface Skills {
-  expert: string[];
-  advanced: string[];
-  intermediate: string[];
-}
-
 interface ResumeData {
   experience: Experience[];
   education: Education[];
@@ -174,8 +168,8 @@ const EducationCard = ({ education }: { education: Education }) => {
 
 export default function ResumeSection({ data }: ResumeSectionProps) {
   return (
-    <section className="py-16 px-4">
-      <div className="container-modern">
+    <section className="">
+      <div className="container-modern section-padding">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             Experience & Education
@@ -194,9 +188,12 @@ export default function ResumeSection({ data }: ResumeSectionProps) {
               Work Experience
             </h3>
             <div className="space-y-4">
-              {data.experience.map((experience) => (
-                <ExperienceCard key={experience.id} experience={experience} />
-              ))}
+              {/* map the expericence based on id */}
+              {data.experience
+                .sort((a, b) => b.id.localeCompare(a.id))
+                .map((experience) => (
+                  <ExperienceCard key={experience.id} experience={experience} />
+                ))}
             </div>
           </div>
 
@@ -208,9 +205,11 @@ export default function ResumeSection({ data }: ResumeSectionProps) {
                 Education
               </h3>
               <div className="space-y-4">
-                {data.education.map((education) => (
-                  <EducationCard key={education.id} education={education} />
-                ))}
+                {data.education
+                  .sort((a, b) => b.id.localeCompare(a.id))
+                  .map((education) => (
+                    <EducationCard key={education.id} education={education} />
+                  ))}
               </div>
             </div>
           </div>
