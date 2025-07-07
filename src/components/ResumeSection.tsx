@@ -20,7 +20,7 @@ interface Experience {
   duration: string;
   location: string;
   description: string;
-  achievements: string[];
+  keyContributions: string[];
   technologies: string[];
 }
 
@@ -31,7 +31,7 @@ interface Education {
   duration: string;
   location: string;
   description: string;
-  achievements: string[];
+  educationalFocus: string[];
 }
 
 interface ResumeData {
@@ -90,15 +90,15 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => {
         {isExpanded && (
           <div className="space-y-4 animate-slide-down">
             <div>
-              <h5 className="font-semibold text-sm mb-2">Key Achievements:</h5>
+              <h5 className="font-semibold text-sm mb-2">Key Contributions:</h5>
               <ul className="space-y-1">
-                {experience.achievements.map((achievement, index) => (
+                {experience.keyContributions.map((contribution, index) => (
                   <li
                     key={index}
                     className="text-sm text-muted-foreground flex items-start gap-2"
                   >
-                    <span className="text-primary mt-1">•</span>
-                    {achievement}
+                    <span className="text-primary">•</span>
+                    {contribution}
                   </li>
                 ))}
               </ul>
@@ -122,23 +122,41 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => {
 };
 
 const EducationCard = ({ education }: { education: Education }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   return (
     <Card className="card-modern pt-4 hover:shadow-lg transition-all duration-300">
       <CardHeader className="pb-3">
-        <CardTitle className="text-lg">{education.degree}</CardTitle>
-        <div className="flex items-center gap-2 text-sm text-muted-foreground">
-          <GraduationCap className="h-4 w-4" />
-          <span className="font-medium">{education.institution}</span>
-        </div>
-        <div className="flex items-center gap-4 text-xs text-muted-foreground">
-          <div className="flex items-center gap-1">
-            <Calendar className="h-3 w-3" />
-            {education.duration}
+        <div className="flex justify-between items-start">
+          <div className="space-y-1">
+            <CardTitle className="text-lg">{education.degree}</CardTitle>
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <GraduationCap className="h-4 w-4" />
+              <span className="font-medium">{education.institution}</span>
+            </div>
+            <div className="flex items-center gap-4 text-xs text-muted-foreground">
+              <div className="flex items-center gap-1">
+                <Calendar className="h-3 w-3" />
+                {education.duration}
+              </div>
+              <div className="flex items-center gap-1">
+                <MapPin className="h-3 w-3" />
+                {education.location}
+              </div>
+            </div>
           </div>
-          <div className="flex items-center gap-1">
-            <MapPin className="h-3 w-3" />
-            {education.location}
-          </div>
+          <Button
+            variant="ghost"
+            size="sm"
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="p-1 h-auto"
+          >
+            {isExpanded ? (
+              <ChevronUp className="h-4 w-4" />
+            ) : (
+              <ChevronDown className="h-4 w-4" />
+            )}
+          </Button>
         </div>
       </CardHeader>
 
@@ -147,20 +165,24 @@ const EducationCard = ({ education }: { education: Education }) => {
           {education.description}
         </p>
 
-        <div>
-          <h5 className="font-semibold text-sm mb-2">Achievements:</h5>
-          <ul className="space-y-1">
-            {education.achievements.map((achievement, index) => (
-              <li
-                key={index}
-                className="text-sm text-muted-foreground flex items-start gap-2"
-              >
-                <span className="text-primary mt-1">•</span>
-                {achievement}
-              </li>
-            ))}
-          </ul>
-        </div>
+        {isExpanded && (
+          <div className="space-y-4 animate-slide-down">
+            <div>
+              <h5 className="font-semibold text-sm mb-2">Educational Focus:</h5>
+              <ul className="space-y-1">
+                {education.educationalFocus.map((focus, index) => (
+                  <li
+                    key={index}
+                    className="text-sm text-muted-foreground flex items-start gap-2"
+                  >
+                    <span className="text-primary">•</span>
+                    {focus}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        )}
       </CardContent>
     </Card>
   );
@@ -188,7 +210,6 @@ export default function ResumeSection({ data }: ResumeSectionProps) {
               Work Experience
             </h3>
             <div className="space-y-4">
-              {/* map the expericence based on id */}
               {data.experience
                 .sort((a, b) => b.id.localeCompare(a.id))
                 .map((experience) => (

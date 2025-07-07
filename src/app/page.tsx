@@ -35,14 +35,13 @@ export default function Home() {
               </h1>
 
               <p className="text-xl sm:text-2xl text-muted-foreground leading-relaxed animate-slide-up [animation-delay:0.1s]">
-                Fullstack Developer crafting modern web experiences with
-                cutting-edge technologies
+                A Fullstack Developer passionate about design, user experience,
+                and building meaningful digital solutions.
               </p>
 
               <p className="text-lg text-muted-foreground/80 leading-relaxed animate-slide-up [animation-delay:0.2s]">
-                I build scalable applications using Next.js, TypeScript, and
-                modern development practices. Passionate about clean code, user
-                experience, and continuous learning.
+                I value quality, collaboration and continuous growth — and I’m
+                always looking to create web experiences that make an impact.
               </p>
 
               {/* CTA Buttons */}
@@ -79,8 +78,8 @@ export default function Home() {
             </div>
             <h3 className="font-semibold mb-2">Frontend</h3>
             <p className="text-sm text-muted-foreground">
-              React.js, Next.js, JavaScript, TypeScript, Tailwind CSS, HTML,
-              CSS, PHP
+              HTML, CSS, React, Next.js, JavaScript, TypeScript, Tailwind CSS,
+              PHP, Bliss, WordPress, Sanity
             </p>
           </div>
 

@@ -2,76 +2,147 @@
   "experience": [
     {
       "id": "1",
-      "company": "Digital Agency",
-      "position": "Web Developer Intern",
-      "duration": "2019 - 2020",
-      "location": "Malmö, Sweden",
-      "description": "Assisted in developing client websites and learning industry best practices.",
-      "achievements": [
-        "Developed 10+ client websites meeting all requirements",
-        "Learned modern development workflows and tools",
-        "Contributed to team code reviews and documentation"
+      "company": "Warehouse & Logistics",
+      "position": "Varying areas of responsibility",
+      "duration": "Jun 2010 - Nov2024",
+      "location": "Gothenburg, Sweden",
+      "description": "Mixed tasks within warehouse and logistics.",
+      "keyContributions": [
+        "Project management in warehouse and logistics operations.",
+        "Management and conducting internal training.",
+        "Performance-based work and served as union representative."
       ],
-      "technologies": ["HTML5", "CSS3", "JavaScript", "PHP", "WordPress"]
+      "technologies": [
+        "Project Management",
+        "Internal Training",
+        "Logistics Systems"
+      ]
     },
 
     {
       "id": "2",
-      "company": "Startup XYZ",
-      "position": "Frontend Developer",
-      "duration": "2020 - 2022",
+      "company": "Luna Creatives",
+      "position": "Fullstack Developer",
+      "duration": "Sep 2023 - Nov 2023",
       "location": "Gothenburg, Sweden",
-      "description": "Developed responsive web applications and improved user experience across multiple platforms.",
-      "achievements": [
-        "Built 5+ React applications with 95%+ accessibility scores",
-        "Collaborated with design team to implement pixel-perfect UI",
-        "Optimized bundle size reducing initial load by 30%",
-        "Implemented automated testing achieving 90% code coverage"
+      "description": "Fullstack development of Qurie - an AI-based learning tool.",
+      "keyContributions": [
+        "Internship for 10 weeks.",
+        "Contributed to development of Qurie - an AI-based learning tool.",
+        "Worked on both frontend and backend aspects of the project.",
+        "Close collaboration with other developers and UX designers.",
+        "Agile teamwork in project development."
       ],
-      "technologies": ["React", "JavaScript", "CSS3", "Jest", "Webpack"]
+      "technologies": [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Express",
+        "GraphQL",
+        "Figma",
+        "Git",
+        "Microsoft Azure",
+        "Linear",
+        "Kanban",
+        "Agile"
+      ]
     },
     {
       "id": "3",
-      "company": "Tech Company AB",
-      "position": "Senior Fullstack Developer",
-      "duration": "2022 - Present",
-      "location": "Stockholm, Sweden",
-      "description": "Lead development of scalable web applications using Next.js, TypeScript, and modern development practices.",
-      "achievements": [
-        "Architected and built 3 major client applications serving 50,000+ users",
-        "Mentored 4 junior developers and established coding standards",
-        "Reduced application load time by 40% through optimization",
-        "Implemented CI/CD pipelines reducing deployment time by 60%"
+      "company": "Megawebb",
+      "position": "Frontend Developer / Web Designer",
+      "duration": "Jan 2024 - Present",
+      "location": "Gothenburg, Sweden",
+      "description": "Designed and developed custom websites and e-commerce solutions, managing projects from concept to launch and providing ongoing client support.",
+      "keyContributions": [
+        "Design and develop e-commerce solutions and custom websites.",
+        "Responsible for end-to-end project planning and execution, working closely with clients from initial concept to final product.",
+        "Handle customer follow-ups and support cases."
       ],
       "technologies": [
-        "Next.js",
-        "TypeScript",
-        "Node.js",
-        "PostgreSQL",
-        "Docker"
+        "HTML",
+        "SCSS",
+        "JavaScript",
+        "PHP",
+        "WordPress",
+        "Bliss",
+        "Deployment",
+        "E-commerce",
+        "Figma",
+        "Adobe CS",
+        "Project Management",
+        "Scrum",
+        "Agile",
+        "Basecamp",
+        "Customer Support"
       ]
     }
   ],
   "education": [
     {
       "id": "1",
-      "degree": "Bachelor of Science in Information Technology",
-      "institution": "Chalmers University of Technology",
-      "duration": "2015 - 2018",
+      "degree": "Frontend Developer",
+      "institution": "Medieinstitutet",
+      "duration": "Sep 2022 - May 2024",
       "location": "Gothenburg, Sweden",
-      "description": "Focused on programming fundamentals and system design",
-      "achievements": ["Dean's List", "Programming competition winner"]
+      "description": "An education in front- and backend development, design and testing.",
+      "educationalFocus": [
+        "Web development with focus on HTML, CSS, JavaScript and APIs.",
+        "UX design, testing and agile methodologies.",
+        "Practical experience from two internship periods in live projects.",
+        "Thesis project summarizing the complete education."
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "Tailwind",
+        "API",
+        "Testing",
+        "Figma",
+        "Adobe Suite",
+        "Git",
+        "Scrum",
+        "Agile"
+      ]
     },
     {
       "id": "2",
-      "degree": "Master of Science in Computer Science",
-      "institution": "KTH Royal Institute of Technology",
-      "duration": "2018 - 2020",
-      "location": "Stockholm, Sweden",
-      "description": "Specialized in software engineering and web technologies",
-      "achievements": [
-        "Graduated with distinction",
-        "Thesis on modern web frameworks"
+      "degree": "UX and accessibility for developers",
+      "institution": "Medieinstitutet",
+      "duration": "Mar 2025 - May 2025",
+      "location": "Remote",
+      "description": "A scale up course with focus on UX and accessibility for developers.",
+      "educationalFocus": [
+        "Accessibility, UI och UX.",
+        "Laws, EU directives and guidelines regarding UX and accessibility.",
+        "Target groups and user testing.",
+        "Wireframes/design sketches, design systems, Figma and prototypes."
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "Tailwind",
+        "API",
+        "Testing",
+        "Figma",
+        "Adobe CS",
+        "Git",
+        "Scrum",
+        "Agile"
       ]
     }
   ]
