@@ -40,16 +40,6 @@ export function ProjectModal({
           </div>
         )}
         <div className="space-y-6 p-4">
-          {/* Project Description */}
-          {/* {project.description && (
-            <div>
-              <h3 className="text-lg font-semibold mb-3">About this project</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                {project.description}
-              </p>
-            </div>
-          )} */}
-
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold tracking-tight">
               {project.title}
@@ -83,7 +73,7 @@ export function ProjectModal({
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors duration-200 group/link"
+                className="inline-flex items-center gap-2 text-sm font-medium text-tertiary-foreground hover:text-tertiary-foreground/80 transition-colors duration-200 group/link"
               >
                 <ExternalLink className="h-5 w-5 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform duration-200" />
                 <span>Visit Live Project</span>
@@ -95,7 +85,7 @@ export function ProjectModal({
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors duration-200 group/link"
+                className="inline-flex items-center gap-2 text-sm font-medium text-tertiary-foreground hover:text-tertiary-foreground/80 transition-colors duration-200 group/link"
               >
                 <Github className="h-5 w-5 group-hover/link:scale-110 transition-transform duration-200" />
                 View Source Code

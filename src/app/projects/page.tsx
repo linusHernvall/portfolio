@@ -15,7 +15,7 @@ export default function ProjectsPage() {
         <div className="mb-12 animate-fade-in">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-200 mb-6 group"
+            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-200 mb-6 group"
           >
             <ArrowLeft className="h-4 w-4 group-hover:-translate-x-1 transition-transform duration-200" />
             Back to Home
@@ -52,7 +52,7 @@ export default function ProjectsPage() {
           </p>
           <Link
             href="#contact"
-            className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-medium transition-colors duration-200"
+            className="inline-flex items-center gap-2 text-tertiary-foreground hover:text-tertiary-foreground/80 font-medium transition-colors duration-200"
           >
             Let's discuss your project
           </Link>
