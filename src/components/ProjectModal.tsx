@@ -49,6 +49,16 @@ export function ProjectModal({
             </DialogDescription>
           </DialogHeader>
 
+          {/* Learnings */}
+          {project.learnings && (
+            <div>
+              <h3 className="text-lg font-semibold mb-3">Learnings</h3>
+              <div className="text-base text-foreground whitespace-pre-line">
+                {project.learnings}
+              </div>
+            </div>
+          )}
+
           {/* Technology Tags */}
           {project.tags && project.tags.length > 0 && (
             <div>

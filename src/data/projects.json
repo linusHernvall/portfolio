@@ -1,12 +1,24 @@
 [
   {
     "id": "1",
-    "title": "E-Commerce Platform",
-    "description": "A full-stack e-commerce solution built with Next.js 14, featuring real-time inventory management, secure payment processing with Stripe, and an intuitive admin dashboard.",
-    "link": "https://your-ecommerce-demo.com",
+    "title": "Dine Pal (Diploma project)",
+    "description": "A fullstack website platform built for small restaurants and cafés, featuring table booking, takeaway ordering, and content management via Sanity CMS. Customers can book tables or order food seamlessly, while staff manage content like images and colors with ease. Developed with a focus on usability, real-time interactions, and customization.",
+    "learnings": "Using many new technologies came with challenges, including time-consuming troubleshooting and limited documentation—especially when tools like WebSockets and tRPC didn't integrate well with newer frameworks. Despite this, we gained valuable experience in type-safe development, modern fullstack tools, and deployment strategies. We also learned how important detailed design work in Figma is for efficient development. Our strong project planning and teamwork helped us stay on track, and the collaborative atmosphere allowed everyone to contribute and grow. The project was both educational and rewarding.",
     "github": "https://github.com/yourusername/ecommerce-platform",
-    "image": "/images/projects/ecommerce-platform.svg",
-    "tags": ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Tailwind CSS"]
+    "image": "/images/projects/dine-pal.jpg",
+    "tags": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Typescript",
+      "Mantine",
+      "Prisma",
+      "MongoDB",
+      "Sanity",
+      "tRPC",
+      "Socket.IO",
+      "TanStack"
+    ]
   },
   {
     "id": "2",

@@ -15,6 +15,7 @@ export type Project = {
   image?: string;
   tags?: string[];
   github?: string;
+  learnings?: string;
 };
 
 export function ProjectCard({ project }: { project: Project }) {
@@ -88,6 +89,18 @@ export function ProjectCard({ project }: { project: Project }) {
             </div>
           )}
 
+          {/* Learnings */}
+          {project.learnings && (
+            <div className="mb-4">
+              <div className="text-xs font-semibold text-muted-foreground mb-1">
+                Learnings
+              </div>
+              <div className="text-sm text-foreground line-clamp-3">
+                {project.learnings}
+              </div>
+            </div>
+          )}
+
           {/* Click hint */}
           <div className="mt-auto pt-4 border-t border-border/50">
             <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground group-hover:text-tertiary-foreground transition-colors duration-200">
@@ -98,7 +111,7 @@ export function ProjectCard({ project }: { project: Project }) {
         </CardContent>
 
         {/* Shimmer effect on hover */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 pointer-events-none" />
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 pointer-events-none" /> */}
       </Card>
 
       <ProjectModal

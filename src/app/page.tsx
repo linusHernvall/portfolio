@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-lg blur-xl"></div>
                 <div className="relative w-full h-full rounded-lg overflow-hidden border-2 border-primary/20 shadow-2xl">
                   <Image
-                    src="/images/profile.jpg"
+                    src="/images/new-profile-2.png"
                     alt="Linus Hernvall - Fullstack Developer"
                     fill
                     priority
