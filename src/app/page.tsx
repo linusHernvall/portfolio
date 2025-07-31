@@ -46,7 +46,7 @@ export default function Home() {
 
               {/* CTA Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 animate-slide-up [animation-delay:0.3s] pt-4">
-                <Button asChild size="lg" className="btn-modern group">
+                <Button asChild size="lg" className="group">
                   <Link
                     href="/projects"
                     className="inline-flex items-center gap-2"

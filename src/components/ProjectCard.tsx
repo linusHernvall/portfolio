@@ -89,14 +89,14 @@ export function ProjectCard({ project }: { project: Project }) {
             </div>
           )}
 
-          {/* Learnings */}
-          {project.learnings && (
+          {/* Description */}
+          {project.description && (
             <div className="mb-4">
               <div className="text-xs font-semibold text-muted-foreground mb-1">
-                Learnings
+                Description
               </div>
               <div className="text-sm text-foreground line-clamp-3">
-                {project.learnings}
+                {project.description}
               </div>
             </div>
           )}

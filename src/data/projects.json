@@ -1,6 +1,24 @@
 [
   {
     "id": "1",
+    "title": "Qurie",
+    "description": "Qurie is a fullstack web-based study platform designed for students. With the help of AI, users can generate study materials such as quizzes and flashcards from uploaded texts. The tool allows users to save generated content and reuse or regenerate it based on the original material. Users can also bookmark their favorite content and share it with others on the platform.",
+    "learnings": "This was my first large-scale project developed in collaboration with a team of skilled developers and UX/UI designers. It was a valuable experience to work in an agile environment—taking designs from Figma to implementation while maintaining structure and clear communication. I deepened my understanding of fullstack development and learned to work methodically with atomic design principles across the entire development chain.",
+    "image": "/images/projects/qurie.png",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express",
+      "Typescript",
+      "MUI",
+      "GraphQL",
+      "Microsoft Azure",
+      "Atomic Design",
+      "Figma"
+    ]
+  },
+  {
+    "id": "2",
     "title": "Dine Pal (Diploma project)",
     "description": "A fullstack website platform built for small restaurants and cafés, featuring table booking, takeaway ordering, and content management via Sanity CMS. Customers can book tables or order food seamlessly, while staff manage content like images and colors with ease. Developed with a focus on usability, real-time interactions, and customization.",
     "learnings": "Using many new technologies came with challenges, including time-consuming troubleshooting and limited documentation—especially when tools like WebSockets and tRPC didn't integrate well with newer frameworks. Despite this, we gained valuable experience in type-safe development, modern fullstack tools, and deployment strategies. We also learned how important detailed design work in Figma is for efficient development. Our strong project planning and teamwork helped us stay on track, and the collaborative atmosphere allowed everyone to contribute and grow. The project was both educational and rewarding.",
@@ -21,22 +39,25 @@
     ]
   },
   {
-    "id": "2",
-    "title": "Task Management API",
-    "description": "RESTful API for task management with JWT authentication, real-time notifications, and comprehensive testing suite. Built with Node.js and Express.",
-    "link": "https://your-api-docs.com",
-    "github": "https://github.com/yourusername/task-management-api",
-    "image": "/images/projects/task-management-api.svg",
-    "tags": ["Node.js", "Express", "JWT", "MongoDB", "Jest"]
-  },
-  {
     "id": "3",
-    "title": "Portfolio Website",
-    "description": "Modern developer portfolio showcasing projects and skills. Features dark mode, responsive design, and optimized performance with Next.js and TypeScript.",
-    "link": "https://your-portfolio.com",
-    "github": "https://github.com/yourusername/portfolio",
-    "image": "/images/projects/portfolio.svg",
-    "tags": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"]
+    "title": "Akademisk Marknadsanalys",
+    "description": "A modernized website created for Akademisk Marknadsanalys — a company specializing in wealth management and family law. While they already had an existing website, the goal was to give it a more contemporary feel while still reflecting the company's traditional values and roots.",
+    "learnings": "This project was a great learning experience for me. I gained valuable experience in type-safe development, modern fullstack tools, and deployment strategies. We also learned how important detailed design work in Figma is for efficient development. Our strong project planning and teamwork helped us stay on track, and the collaborative atmosphere allowed everyone to contribute and grow. The project was both educational and rewarding.",
+    "link": "https://akademisk.se/",
+    "image": "/images/projects/am.png",
+    "tags": [
+      "Bliss",
+      "HTML",
+      "SCSS",
+      "JavaScript",
+      "PHP",
+      "Figma",
+      "Adobe CS",
+      "Project Management",
+      "Scrum",
+      "Agile",
+      "Customer Support"
+    ]
   },
   {
     "id": "4",
