@@ -4,10 +4,6 @@ import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
 export default function ProjectsPage() {
-  // Summary of projects
-  // Challenges
-  // Lessons learned
-
   return (
     <main className="min-h-screen gradient-bg">
       <div className="container-modern section-padding">
@@ -26,7 +22,7 @@ export default function ProjectsPage() {
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
             A collection of my work showcasing modern web development, clean
-            architecture, and user-focused design.
+            architecture and user-focused design.
           </p>
         </div>
 

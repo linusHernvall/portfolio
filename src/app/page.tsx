@@ -2,7 +2,9 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Code, Database, Images } from "lucide-react";
 import ResumeSection from "@/components/ResumeSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import resumeData from "@/data/resume.json";
+import testimonialsData from "@/data/testimonials.json";
 import Image from "next/image";
 
 export default function Home() {
@@ -40,7 +42,7 @@ export default function Home() {
               </p>
 
               <p className="text-lg text-muted-foreground/80 leading-relaxed animate-slide-up [animation-delay:0.2s]">
-                I value quality, collaboration and continuous growth — and I’m
+                I value quality, collaboration and continuous growth - and I’m
                 always looking to create web experiences that make an impact.
               </p>
 
@@ -89,7 +91,7 @@ export default function Home() {
             </div>
             <h3 className="font-semibold mb-2">Backend</h3>
             <p className="text-sm text-muted-foreground">
-              Node.js, MongoDB, GraphQL, Supabase
+              Node.js, Express, MongoDB, GraphQL, Supabase
             </p>
           </div>
 
@@ -107,6 +109,9 @@ export default function Home() {
 
       {/* Resume Section */}
       <ResumeSection data={resumeData} />
+
+      {/* Testimonials Section */}
+      <TestimonialsSection data={testimonialsData} />
     </main>
   );
 }

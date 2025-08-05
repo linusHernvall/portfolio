@@ -1,0 +1,32 @@
+{
+  "testimonials": [
+    {
+      "id": "01",
+      "name": "Erik Nguyen",
+      "position": "CEO & Founder",
+      "company": "LUNA Creatives",
+      "content": "Under tiden hos oss jobbade Linus som fullstackutveckling där han utvecklade webbapplikationer för LUNAs räkning. Arbetet bedrevs i en agil miljö med fokus på kontinuerlig förbättring med retrospectives. Kanban var huvudsakliga arbetsmetodiken under perioden.\n\n Linus visade god teknisk kompetens, engagemang och mycket god förmåga i strukturellt arbete."
+    },
+    {
+      "id": "02",
+      "name": "Oscar Cedergren",
+      "position": "M & A Manager",
+      "company": "Svenska Veterinärgruppen",
+      "content": "Jag skriver detta brev som en stark rekommendation för Linus Hernvall från Megawebb, som jag har haft nöjet att arbeta med under en längre period. Jag arbetar på Svenska Veterinärgruppen och Linus har utöver att bygga vår grupps hemsida även byggt 29 hemsidor till samtliga av våra veterinärkliniker som vi köpt och köper löpande. Både när vi gjorde en initial större insats och flyttade över våra första 15 kliniker från dåvarande hemsidor till de som Linus skapat samt när vi löpande köpt nya kliniker och bytt hemsidor har samarbetet med Linus varit supersmidigt och professionellt.\n\nLinus är väldigt trevlig, snabb, lösningsorienterad och känner ägandeskap för att sidorna ska bli bra. Egenskaper som är ovärderliga när vi vill göra byten av hemsidor för våra kliniker, hålla tidsramar men samtidigt vara lyhörda för klinikchefernas önskemål. Han har alltid varit lätt att få tag på, levererat enligt (eller före) tidsplan, och bidragit med smarta lösningar varje gång vi stött på utmaningar.\n\nDet märks att Linus brinner för sitt arbete, och han har hela tiden lyssnat till mina behov och idéer. Resultatet har blivit hemsidor som både ser bra ut och fungerar som de ska.\n\nJag rekommenderar verkligen Linus varmt till alla som behöver en pålitlig och kompetent partner inom webbutveckling."
+    },
+    {
+      "id": "03",
+      "name": "Kaveh Sobhi",
+      "position": "Deputy Operations Manager",
+      "company": "Kirurghuset",
+      "content": "Under vår tid av samarbete mellan Kirurghuset och Megawebb med Linus som ansvarig webbutvecklare har vi upplevt väldigt stor nöjdhet med Linus arbetsinsatser. Linus har alltid funnit lösningar och levererat färdiga förslag på de önskemål vi haft till skapande av vår hemsida, men även till andra projekt som grafisk design av bilder och textförslag.\n\nVi rekommenderar Linus varmt till andra leverantörer och samarbetspartners inom våra kretsar när frågor om rekommendationer beträffande webdesign har efterfrågats."
+    },
+    {
+      "id": "04",
+      "name": "Roy Dahlgren",
+      "position": "CEO",
+      "company": "Megawebb",
+      "content": "Det är med stor trygghet som jag kan rekommendera Linus Hernvall. Han har varit en värdefull del av vårt team från. Linus började sin resa hos oss som praktikant, men tack vare sitt starka driv, sin professionalism och sin tekniska kompetens stack han ut och vi erbjöd honom en fast tjänst som front-end-utvecklare på MEGAWEBB.\n\nUnder sin tid hos oss har Linus visat prov på ett stort ansvarstagande och en imposant förmåga strukturerat driva projekt från ax till limpa. Han har arbetat nära våra kunder och tagit ett helhetsperspektiv i sina projekt, från inledande uppstartsmöte och behovsanalys till design, implementation och lansering. Linus är väldigt bra på att jobba både självständigt och i team. Han har på egen hand planerat och genomfört projekt parallella, där han haft direkt kundkontakt och ansvar för hela processen med en ny hemsida.\n\nHans strukturerade arbetssätt och goda kommunikationsförmåga har lett till ett mycket gott samarbete med våra kunder, som ofta uttryckt uppskattning till mig för hans professionalism, tydlighet och lyhördhet. Linus har inte bara levererat tekniskt bra lösningar, utan också skapat bra relationer med våra kunder tack vare sitt trevliga bemötande och sitt engagemang.\n\nJag är övertygad om att Linus kommer att vara en stor tillgång för framtida arbetsgivare, och jag ger honom min varmaste rekommendation."
+    }
+  ]
+}
