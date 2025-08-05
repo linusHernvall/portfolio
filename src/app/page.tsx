@@ -107,7 +107,8 @@ export default function Home() {
             </div>
             <h3 className="font-semibold mb-2">Web Design</h3>
             <p className="text-sm text-muted-foreground">
-              Figma, Accessibility (WCAG etc), Adobe CS
+              Figma, Accessibility (WCAG etc), Photoshop, Illustrator, Premiere
+              Pro
             </p>
           </div>
         </div>

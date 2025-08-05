@@ -33,7 +33,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
   };
 
   return (
-    <Card className="card-modern p-8 hover:shadow-lg transition-all duration-300 h-full max-w-4xl mx-auto">
+    <Card className="card-modern md:px-4 py-8 mb-10 hover:shadow-lg transition-all duration-300 max-w-4xl mx-auto">
       <CardHeader className="pb-6">
         <div className="space-y-4">
           <div className="flex items-center gap-2">
@@ -86,7 +86,6 @@ export default function TestimonialsSection({
             showDots={true}
             autoPlay={true}
             interval={10000}
-            className="px-4"
           >
             {data.testimonials
               .sort((a, b) => b.id.localeCompare(a.id))
