@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Code, Database, Images } from "lucide-react";
@@ -6,10 +8,13 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import resumeData from "@/data/resume.json";
 import testimonialsData from "@/data/testimonials.json";
 import Image from "next/image";
+import { useSectionNavigation } from "@/lib/navigation";
 
 export default function Home() {
+  const { navigateToSection } = useSectionNavigation();
+
   return (
-    <main className="min-h-screen gradient-bg">
+    <main id="home" className="min-h-screen gradient-bg">
       <div className="container-modern section-padding">
         <div className="flex flex-col items-center justify-center text-center animate-fade-in">
           {/* Hero Section */}
@@ -60,7 +65,8 @@ export default function Home() {
 
                 <Button variant="outline" size="lg" className="group">
                   <Link
-                    href="#contact"
+                    href="#footer"
+                    onClick={() => navigateToSection("footer")}
                     className="inline-flex items-center gap-2"
                   >
                     Get In Touch

@@ -69,7 +69,7 @@ export default function TestimonialsSection({
   data,
 }: TestimonialsSectionProps) {
   return (
-    <section className="">
+    <section id="testimonials">
       <div className="container-modern section-padding">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">

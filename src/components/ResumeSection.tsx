@@ -190,7 +190,7 @@ const EducationCard = ({ education }: { education: Education }) => {
 
 export default function ResumeSection({ data }: ResumeSectionProps) {
   return (
-    <section className="">
+    <section id="resume" className="">
       <div className="container-modern section-padding">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">

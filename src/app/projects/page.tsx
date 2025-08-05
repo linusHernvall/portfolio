@@ -1,9 +1,14 @@
+"use client";
+
 import { ProjectCard } from "@/components/ProjectCard";
 import projects from "@/data/projects.json";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
+import { useSectionNavigation } from "@/lib/navigation";
 
 export default function ProjectsPage() {
+  const { navigateToSection } = useSectionNavigation();
+
   return (
     <main className="min-h-screen gradient-bg">
       <div className="container-modern section-padding">
@@ -47,7 +52,8 @@ export default function ProjectsPage() {
             Interested in working together?
           </p>
           <Link
-            href="#contact"
+            href="#footer"
+            onClick={() => navigateToSection("footer")}
             className="inline-flex items-center gap-2 text-tertiary-foreground hover:text-tertiary-foreground/80 font-medium transition-colors duration-200"
           >
             Let's discuss your project
