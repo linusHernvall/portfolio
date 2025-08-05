@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "01",
     "title": "Qurie",
     "description": "Qurie is a fullstack web-based study platform designed for students. With the help of AI, users can generate study materials such as quizzes and flashcards from uploaded texts. The tool allows users to save generated content and reuse or regenerate it based on the original material. Users can also bookmark their favorite content and share it with others on the platform.",
     "learnings": "This was my first large-scale project developed in collaboration with a team of skilled developers and UX/UI designers. It was a valuable experience to work in an agile environment—taking designs from Figma to implementation while maintaining structure and clear communication. I deepened my understanding of fullstack development and learned to work methodically with atomic design principles across the entire development chain.",
@@ -14,11 +14,13 @@
       "GraphQL",
       "Microsoft Azure",
       "Atomic Design",
-      "Figma"
+      "Figma",
+      "Git",
+      "GitHub"
     ]
   },
   {
-    "id": "2",
+    "id": "02",
     "title": "Dine Pal (Diploma project)",
     "description": "A fullstack website platform built for small restaurants and cafés, featuring table booking, takeaway ordering, and content management via Sanity CMS. Customers can book tables or order food seamlessly, while staff manage content like images and colors with ease. Developed with a focus on usability, real-time interactions, and customization.",
     "learnings": "Using many new technologies came with challenges, including time-consuming troubleshooting and limited documentation—especially when tools like WebSockets and tRPC didn't integrate well with newer frameworks. Despite this, we gained valuable experience in type-safe development, modern fullstack tools, and deployment strategies. We also learned how important detailed design work in Figma is for efficient development. Our strong project planning and teamwork helped us stay on track, and the collaborative atmosphere allowed everyone to contribute and grow. The project was both educational and rewarding.",
@@ -42,11 +44,13 @@
       "Deployment",
       "Project Management",
       "Scrum",
-      "Agile"
+      "Agile",
+      "Git",
+      "GitHub"
     ]
   },
   {
-    "id": "3",
+    "id": "03",
     "title": "Akademisk Marknadsanalys",
     "description": "A modernized website created for Akademisk Marknadsanalys - a company specializing in wealth management and family law. While they already had an existing website, the goal was to give it a more contemporary feel while still reflecting the company's traditional values and roots.",
     "learnings": "This project taught me the importance of clear communication during client dialogue. The client initially had an unclear vision of what they wanted, which made it essential to ask even the “obvious” questions. Doing so helped uncover hidden issues with their old website and clarified what they truly needed in the new one. After a thorough exchange of ideas, we landed on a result that the client was very happy with.",
@@ -71,7 +75,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": "04",
     "title": "Flowerstories",
     "description": "An e-commerce platform developed for Flowerstories - a boutique specializing in flowers and interior design. Throughout the project, I worked closely with the client to design and build a webshop tailored to their business needs. We collaborated continuously, refining ideas until we met all the requirements and both parties were satisfied. The final result significantly boosted their online sales and the client was very pleased with the outcome.",
     "learnings": "One of the key takeaways from this project was learning how to navigate unclear client expectations. In the beginning, the client had an ambitious vision but lacked a concrete idea of what they actually needed. Their initial scope was broad and somewhat unrealistic. I had to read between the lines, ask clarifying questions, and proactively suggest solutions that aligned with their business goals. This iterative dialogue helped narrow down the focus and ultimately led to a webshop that truly met their needs - even if it differed from their original idea.",
@@ -99,7 +103,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": "05",
     "title": "Kontorshotell Kyrkogatan",
     "description": "A modernized website created for Kontorshotell Kyrkogatan - a company specializing in office space and coworking. While they already had an existing website, the goal was to give it a more contemporary feel while still reflecting the company's traditional values and roots.",
     "learnings": "In this project, I learned how to deliver a successful product within very broad and undefined parameters. The client’s initial vision was quite vague, but by breaking down the project into smaller parts and clarifying key elements, I was able to create a design that not only matched their expectations but also helped attract new tenants to their office hotel. By the end of the project, the client was highly satisfied with the result - so much so that it led to three additional project requests.",
@@ -124,7 +128,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": "06",
     "title": "Collage",
     "description": "Restaurant Collage was an innovative new dining concept set to open in Gothenburg. The client wanted a visually striking website that would not only showcase the restaurant’s offerings but also highlight the unique history of the location.",
     "learnings": "This project required me to work quickly and deliver both a finished design and a fully functional website under a tight deadline. Due to the limited time frame, I had to make many decisions independently, as the client wasn’t always available for check-ins before the launch. Despite the pressure, the end result was a uniquely designed website that successfully captured the personality of the restaurant.",
@@ -149,7 +153,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": "07",
     "title": "Svenska Veterinärgruppen",
     "description": "Svenska Veterinärgruppen was a project I both led and developed. The assignment involved analyzing, designing, and building new websites for all 29 veterinary clinics in the group, based on their existing online presence.",
     "learnings": "The goal of the new websites was to suit all clinics and appeal to their target audience. To ensure this, I conducted numerous interviews with both clinic staff and end users to gain a clear understanding of their needs and expectations. This helped shape accessible and user-friendly websites tailored to each clinic. This large-scale project gave me valuable experience in leading and managing complex projects while navigating new challenges along the way. It taught me the importance of working agilely—being able to adapt and pivot in response to changing requirements and priorities.",
@@ -174,7 +178,7 @@
     ]
   },
   {
-    "id": "8",
+    "id": "08",
     "title": "Härryda Energi",
     "description": "Härryda Energi was an ongoing project where our team continuously developed and implemented new features and content for the company's website. The project involved strict legal requirements and compliance standards, which placed high demands on structure, documentation and accessibility throughout the development process.",
     "learnings": "Working on Härryda Energi taught me how to develop under strict legal and accessibility requirements. I learned to balance technical solutions with compliance demands and how to collaborate closely with stakeholders to deliver features that met both user needs and regulatory standards. The project also deepened my understanding of accessible design, iterative development and the importance of clear communication in high-responsibility environments.",
@@ -199,7 +203,7 @@
     ]
   },
   {
-    "id": "9",
+    "id": "09",
     "title": "Belano",
     "description": "Belano is an e-commerce platform offering a wide range of sheet metal machines and accessories. This was a collaborative group project where I was one of several developers responsible for building and continuously maintaining the platform.",
     "learnings": "Working on Belano gave me valuable experience in developing and maintaining a complex e-commerce platform as part of a team. I deepened my understanding of version control and collaboration workflows, especially how to divide responsibilities efficiently in a larger codebase. The project also strengthened my skills in writing scalable and maintainable code and taught me how to navigate real-world technical challenges that arise from working with a large inventory and specific user needs.",
@@ -222,6 +226,32 @@
       "Scrum",
       "Agile",
       "Customer Support"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Burger Quest",
+    "description": "Burger Quest is a modern fullstack web application designed to help users track, rate and document their burger experiences. The web application allows users to upload burger images, leave reviews, rate their experiences and view the top-rated burgers - all managed through a performant and scalable architecture using server components.",
+    "learnings": "This project allowed me to deepen my understanding of building fullstack applications using modern tools. I gained hands-on experience with Supabase authentication and storage, server components in Next.js and type-safe API integration. I also learned how to architect a clean and scalable codebase, handle image uploads securely and structure backend logic within a monorepo setup. Additionally, deploying the app with Vercel and configuring environment variables taught me important skills around DevOps, CI/CD, and real-world hosting practices.",
+    "github": "https://github.com/linusHernvall/burger-quest",
+    "link": "https://burger-quest.vercel.app/",
+    "image": "/images/projects/burger-quest.png",
+    "tags": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Supabase",
+      "Server Components",
+      "Vercel",
+      "Shadcn UI",
+      "UX/UI",
+      "Figma",
+      "Adobe CS",
+      "Midjourney",
+      "Git",
+      "GitHub"
     ]
   }
 ]
