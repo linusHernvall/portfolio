@@ -22,18 +22,18 @@ export function Carousel({
   autoPlay = false,
   interval = 10000,
 }: CarouselProps) {
-  const [currentIndex, setCurrentIndex] = React.useState(0);
+  // const [currentIndex, setCurrentIndex] = React.useState(0);
   const [isPlaying, setIsPlaying] = React.useState(autoPlay);
   const childrenArray = React.Children.toArray(children);
   const totalSlides = childrenArray.length;
 
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % totalSlides);
-  };
+  // const nextSlide = () => {
+  //   setCurrentIndex((prev) => (prev + 1) % totalSlides);
+  // };
 
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + totalSlides) % totalSlides);
-  };
+  // const prevSlide = () => {
+  //   setCurrentIndex((prev) => (prev - 1 + totalSlides) % totalSlides);
+  // };
 
   // Create infinite loop by duplicating slides
   const createInfiniteSlides = () => {
@@ -48,7 +48,7 @@ export function Carousel({
 
   const infiniteSlides = createInfiniteSlides();
   const totalInfiniteSlides = infiniteSlides.length;
-  const [infiniteIndex, setInfiniteIndex] = React.useState(1); // Start at index 1 (first real slide)
+  const [infiniteIndex, setInfiniteIndex] = React.useState(1);
 
   const nextSlideInfinite = () => {
     setIsTransitioning(true);
@@ -85,9 +85,9 @@ export function Carousel({
   const [isResetting, setIsResetting] = React.useState(false);
   const [isTransitioning, setIsTransitioning] = React.useState(false);
 
-  const goToSlide = (index: number) => {
-    setCurrentIndex(index);
-  };
+  // const goToSlide = (index: number) => {
+  //   setCurrentIndex(index);
+  // };
 
   // Handle drag start
   const handleDragStart = (event: React.MouseEvent | React.TouchEvent) => {

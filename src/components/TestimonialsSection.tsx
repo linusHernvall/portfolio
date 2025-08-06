@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel } from "@/components/ui/carousel";
-import { Quote, User, Building, Calendar } from "lucide-react";
+import { Quote, User, Building } from "lucide-react";
 
 interface Testimonial {
   id: string;
