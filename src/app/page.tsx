@@ -67,8 +67,8 @@ export default function Home() {
 
                 <Button variant="outline" size="lg" className="group">
                   <Link
-                    href="#footer"
-                    onClick={() => navigateToSection("footer")}
+                    href="#contact"
+                    onClick={() => navigateToSection("contact")}
                     className="inline-flex items-center gap-2"
                   >
                     Get In Touch

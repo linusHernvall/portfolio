@@ -19,7 +19,7 @@ export default function Footer() {
 
   return (
     <footer
-      id="footer"
+      id="contact"
       className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-t"
     >
       <div className="container-modern section-padding">
