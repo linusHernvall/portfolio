@@ -38,7 +38,8 @@ export default function Home() {
             {/* Text Content */}
             <div className="flex-1 text-left md:w-60%">
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight animate-slide-up">
-                Hi, I'm <span className="text-primary">Linus Hernvall</span>
+                Hi, I&apos;m{" "}
+                <span className="text-primary">Linus Hernvall</span>
               </h1>
 
               <p className="text-xl sm:text-2xl text-muted-foreground leading-relaxed animate-slide-up [animation-delay:0.1s]">
@@ -47,8 +48,9 @@ export default function Home() {
               </p>
 
               <p className="text-lg text-muted-foreground/80 leading-relaxed animate-slide-up [animation-delay:0.2s]">
-                I value quality, collaboration and continuous growth - and I’m
-                always looking to create web experiences that make an impact.
+                I value quality, collaboration and continuous growth - and
+                I&apos;m always looking to create web experiences that make an
+                impact.
               </p>
 
               {/* CTA Buttons */}

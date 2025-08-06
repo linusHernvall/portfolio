@@ -56,7 +56,7 @@ export default function ProjectsPage() {
             onClick={() => navigateToSection("footer")}
             className="inline-flex items-center gap-2 text-tertiary-foreground hover:text-tertiary-foreground/80 font-medium transition-colors duration-200"
           >
-            Let's discuss your project
+            Let&apos;s discuss your project
           </Link>
         </div>
       </div>

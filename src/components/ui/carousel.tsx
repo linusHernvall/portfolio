@@ -80,7 +80,7 @@ export function Carousel({
 
   const [isDragging, setIsDragging] = React.useState(false);
   const [startX, setStartX] = React.useState(0);
-  const [currentX, setCurrentX] = React.useState(0);
+  // const [currentX, setCurrentX] = React.useState(0);
   const [dragOffset, setDragOffset] = React.useState(0);
   const [isResetting, setIsResetting] = React.useState(false);
   const [isTransitioning, setIsTransitioning] = React.useState(false);
@@ -95,7 +95,7 @@ export function Carousel({
     const clientX =
       "touches" in event ? event.touches[0].clientX : event.clientX;
     setStartX(clientX);
-    setCurrentX(clientX);
+    // setCurrentX(clientX);
     setDragOffset(0);
   };
 
@@ -105,7 +105,7 @@ export function Carousel({
 
     const clientX =
       "touches" in event ? event.touches[0].clientX : event.clientX;
-    setCurrentX(clientX);
+    // setCurrentX(clientX);
     setDragOffset(clientX - startX);
   };
 
