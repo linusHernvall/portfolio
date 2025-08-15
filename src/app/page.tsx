@@ -99,7 +99,8 @@ export default function Home() {
             </div>
             <h3 className="font-semibold mb-2">Backend</h3>
             <p className="text-sm text-muted-foreground">
-              Node.js, Express, MongoDB, GraphQL, SQL, Rest API, Supabase
+              Node.js, Express, MongoDB, GraphQL, SQL, REST API, Supabase,
+              Vercel, Git, GitHub
             </p>
           </div>
 
@@ -110,7 +111,7 @@ export default function Home() {
             <h3 className="font-semibold mb-2">UX/UI Design</h3>
             <p className="text-sm text-muted-foreground">
               Figma, Accessibility (WCAG etc), Photoshop, Illustrator, Premiere
-              Pro
+              Pro, Midjourney
             </p>
           </div>
         </div>
