@@ -198,7 +198,7 @@ export default function ResumeSection({ data }: ResumeSectionProps) {
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             My professional journey and academic background in software
-            development
+            development.
           </p>
         </div>
 

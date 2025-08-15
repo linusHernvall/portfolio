@@ -253,5 +253,36 @@
       "Git",
       "GitHub"
     ]
+  },
+  {
+    "id": "11",
+    "title": "MassLog",
+    "description": "MassLog is a modern, lightweight web application designed for athletes, bodybuilders and fitness enthusiasts who want a clean, no-frills way to track their bodyweight and progress over time. Built with performance and usability in mind, the app offers an intuitive dashboard where users can log daily weights, track weekly averages and compare progress against personal goals.",
+    "learnings": "I learned how to group and calculate weekly averages from date-based data, integrate Supabase for authentication and real-time storage, and create theme-aware UIs in Next.js without layout shifts. I also gained experience in balancing overview and detail through progressive disclosure, optimizing performance for faster load times, and adding subtle UI animations to improve the overall user experience.",
+    "github": "https://github.com/linusHernvall/body-weight",
+    "link": "https://masslog.vercel.app/",
+    "image": "/images/projects/masslog.png",
+    "tags": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Zod",
+      "React Hook Form",
+      "Tanstack Query",
+      "Framer Motion",
+      "Date-fns",
+      "Supabase",
+      "Server Components",
+      "Vercel",
+      "Shadcn UI",
+      "UX/UI",
+      "Figma",
+      "Adobe CS",
+      "Midjourney",
+      "Git",
+      "GitHub"
+    ]
   }
 ]

@@ -76,7 +76,7 @@ export default function TestimonialsSection({
             Client Testimonials
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            What clients and colleagues say about working with me
+            What clients and colleagues say about working with me.
           </p>
         </div>
 
